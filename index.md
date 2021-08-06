@@ -1,9 +1,11 @@
+---
 layout: page
-title: circuitanim
+title: Page With Contents
+subtitle: Example page with contents
 menubar_toc: true
-toc_title: Contents
-
-
+toc_title: Custom Title
+show_sidebar: false
+---
 
 ## Introduction
 
