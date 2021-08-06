@@ -1,6 +1,5 @@
 layout: page
 title: circuitanim
-subtitle: The official documentation!
 menubar_toc: true
 toc_title: Contents
 
@@ -38,7 +37,7 @@ Parent of all electrical components found
 
 ### Voltage Source
 
- 
+
 
 ## Transistors 
 
