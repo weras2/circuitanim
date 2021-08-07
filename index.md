@@ -16,8 +16,8 @@ Welcome to circuitanim, an extension to 3b1b's manim python library. Much like m
   <video controls="true" allowfullscreen="true" poster="graphics/videos/DrawCircuit_poster.jpg">
     <source src="graphics/videos/DrawCircuit.mp4" type="video/mp4">
     <!--<source src="path/to/video.ogg" type="video/ogg">
-    <source src="path/to/video.webm" type="video/webm">
-  </video> -->
+    <source src="path/to/video.webm" type="video/webm"> -->
+  </video> 
 </figure>
 <!-- blank line -->
 
