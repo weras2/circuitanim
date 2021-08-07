@@ -23,7 +23,7 @@ Welcome to circuitanim, an extension to 3b1b's manim python library. Much like m
 
 
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-<pre class ="prettyprint lang-html">
+<pre class ="prettyprint lang-py">
 class DrawCircuit(Scene):
   def construct(self):
     res = Resistor()
