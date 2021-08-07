@@ -23,28 +23,28 @@ Welcome to circuitanim, an extension to 3b1b's manim python library. Much like m
 
 
 
-<code>
-class DrawCircuit(Scene):
-    def construct(self):
-        res = Resistor()
-        cap = Capacitor()
-        batt = Battery()
+<pre><code style="background-color: #171717;">
+  class DrawCircuit(Scene):
+      def construct(self):
+          res = Resistor()
+          cap = Capacitor()
+          batt = Battery()
 
-        batt.rotate(PI/2)
-        cap.rotate(-PI/2)
-        cap.shift(RIGHT*3)
-        res.shift(2*LEFT + UP*3)
-        batt.shift(3*LEFT)
+          batt.rotate(PI/2)
+          cap.rotate(-PI/2)
+          cap.shift(RIGHT*3)
+          res.shift(2*LEFT + UP*3)
+          batt.shift(3*LEFT)
 
 
-        circ = Circuit()
-        circ.connect(batt.get_right(),res.get_left())
-        circ.connect(res.get_right(),cap.get_left(),pin_top=True)
-        circ.connect_right_to_left(cap.get_right(),batt.get_left())
-        circ.render()
-        
-        self.play(ShowCreation(batt),ShowCreation(res),ShowCreation(cap),ShowCreation(circ),run_time=3)
-</code>
+          circ = Circuit()
+          circ.connect(batt.get_right(),res.get_left())
+          circ.connect(res.get_right(),cap.get_left(),pin_top=True)
+          circ.connect_right_to_left(cap.get_right(),batt.get_left())
+          circ.render()
+          
+          self.play(ShowCreation(batt),ShowCreation(res),ShowCreation(cap),ShowCreation(circ),run_time=3)
+</code></pre>
 
 
 
