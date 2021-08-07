@@ -82,6 +82,6 @@ For up-to-date installation, see the github readme which can be found [here](htt
 ## Transistors 
 
 ### BJTs 
-![BJTs Image](graphics/transistors/bjts.jpg)
+![Mosfets Image](graphics/transistors/mosfets.jpg)
 
 ### Mosfets
