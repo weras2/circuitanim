@@ -11,7 +11,19 @@ show_sidebar: false
 
 Welcome to circuitanim, an extension to 3b1b's manim python library. Much like manim simplifies animating mathematical obects, circuitanim simplifies animating circuits. As seen below, with only a few lines of code, you can render a complete circuit scene.
 
-``` python
+<!-- blank line -->
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="graphics/videos/DrawCircuit.jpg">
+    <source src="graphics/videos/DrawCircuit.mp4" type="video/mp4">
+    <!--<source src="path/to/video.ogg" type="video/ogg">
+    <source src="path/to/video.webm" type="video/webm">
+  </video> -->
+</figure>
+<!-- blank line -->
+
+
+
+```python
 class DrawCircuit(Scene):
     def construct(self):
         res = Resistor()
