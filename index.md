@@ -23,7 +23,7 @@ Welcome to circuitanim, an extension to 3b1b's manim python library. Much like m
 
 
 
-<pre><code style="background-color: #171717;">
+<pre style="background-color: #171717;"><code>
   class DrawCircuit(Scene):
       def construct(self):
           res = Resistor()
