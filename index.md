@@ -9,24 +9,48 @@ show_sidebar: false
 
 ## Introduction
 
-Welcome to circuitanim, an extension to 3b1b's manim python library. Much like manim simplifies animating mathematical obects, circuitanim simplifies animating circuits.   
+Welcome to circuitanim, an extension to 3b1b's manim python library. Much like manim simplifies animating mathematical obects, circuitanim simplifies animating circuits. As seen below, with only a few lines of code, you can render a complete circuit scene.
+
+``` python
+class DrawCircuit(Scene):
+    def construct(self):
+        res = Resistor()
+        cap = Capacitor()
+        batt = Battery()
+
+        batt.rotate(PI/2)
+        cap.rotate(-PI/2)
+        cap.shift(RIGHT*3)
+        res.shift(2*LEFT + UP*3)
+        batt.shift(3*LEFT)
+
+
+        circ = Circuit()
+        circ.connect(batt.get_right(),res.get_left())
+        circ.connect(res.get_right(),cap.get_left(),pin_top=True)
+        circ.connect_right_to_left(cap.get_right(),batt.get_left())
+        circ.render()
+        
+        self.play(ShowCreation(batt),ShowCreation(res),ShowCreation(cap),ShowCreation(circ),run_time=3)
+
+```   
 
 
 ## Set Up
 
-For up-to-date installation, see the github readme which can be found [here](https://github.com/allejo/jekyll-toc).  
+For up-to-date installation, see the github readme which can be found [here](https://github.com/weras2/circuitanim).  
 
-## CircuitComponent {Class}
 
-Parent of all electrical components found 
 
 ## Basic Electrical Components 
 
-### Capacitors
+### Capacitor
+
+### Inductor 
 
 ### Resistor
 
-### Inductors 
+
 
 
 
