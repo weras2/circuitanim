@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Page With Contents
-subtitle: Example page with contents
+title: Docs
 menubar_toc: true
 toc_title: Custom Title
 show_sidebar: false
+hide_hero: true
 ---
 
 ## Introduction
@@ -23,7 +23,7 @@ Welcome to circuitanim, an extension to 3b1b's manim python library. Much like m
 
 
 
-```python
+<code>
 class DrawCircuit(Scene):
     def construct(self):
         res = Resistor()
@@ -44,8 +44,8 @@ class DrawCircuit(Scene):
         circ.render()
         
         self.play(ShowCreation(batt),ShowCreation(res),ShowCreation(cap),ShowCreation(circ),run_time=3)
+</code>
 
-```   
 
 
 ## Set Up
