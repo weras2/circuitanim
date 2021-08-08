@@ -60,6 +60,8 @@ For up-to-date installation, see the github readme which can be found [here](htt
 
 ### Capacitor
 
+### Diode 
+
 ### Inductor 
 
 ### Resistor
@@ -73,6 +75,9 @@ For up-to-date installation, see the github readme which can be found [here](htt
 
 ### Battery 
 
+
+
+
 ### Current Source
 
 ### Voltage Source
@@ -81,7 +86,19 @@ For up-to-date installation, see the github readme which can be found [here](htt
 
 ## Transistors 
 
+{% include notification.html 
+message=" Note: Transistors have more than two terminals so avoid the use of get_left() and get_right(). Instead, use methods specific to the transistor type"  %}
+
+
+
 ### BJTs 
-![Mosfets Image](graphics/transistors/mosfets.jpg)
+<pre class ="prettyprint lang-py">
+class Bjt(CircuitComponent)
+</pre>
+
+<code class = "prettyprint lang-py">get_base()</code> Returns coordinates of base terminal
+<code class = "prettyprint lang-py">get_collector()</code> Returns coordinates of collector terminal
+<code class = "prettyprint lang-py">get_emitter()</code> Returns coordinates of emitter terminal
+
 
 ### Mosfets
