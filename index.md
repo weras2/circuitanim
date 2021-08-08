@@ -76,8 +76,6 @@ For up-to-date installation, see the github readme which can be found [here](htt
 ### Battery 
 
 
-
-
 ### Current Source
 
 ### Voltage Source
@@ -96,9 +94,14 @@ message=" Note: Transistors have more than two terminals so avoid the use of get
 class Bjt(CircuitComponent)
 </pre>
 
-<code class = "prettyprint lang-py">get_base()</code> Returns coordinates of base terminal
-<code class = "prettyprint lang-py">get_collector()</code> Returns coordinates of collector terminal
-<code class = "prettyprint lang-py">get_emitter()</code> Returns coordinates of emitter terminal
+By default, the bjt is rendered as npn. If you would like to render a pnp bjt, then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_pnp</code> and set it to <code class = "prettyprint lang-py">False</code> like so <code class = "prettyprint lang-py">Bjt(is_pnp=False)</code>. 
+
+#### Methods
+<code class = "prettyprint lang-py">get_base()</code> Returns coordinates of base terminal <br/>
+<code class = "prettyprint lang-py">get_collector()</code> Returns coordinates of collector terminal <br/>
+<code class = "prettyprint lang-py">get_emitter()</code> Returns coordinates of emitter terminal <br/>
 
 
 ### Mosfets
+
+By default, the mosfet is rendered as nmos. If you would like to render it as pmos,  then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_nmos</code> and set it to <code class = "prettyprint lang-py">False</code> like so <code class = "prettyprint lang-py">Mosfet(is_nmos=False)</code>.
