@@ -87,7 +87,7 @@ The circuit class is what glues together all of the electrical components in a s
 
 
 
-<div class="column is-6">
+<div class="column is-4">
         <div class="card">
             <header class="card-header">
             <p class="card-header-title is-centered">
@@ -113,7 +113,7 @@ class Sample(Scene):
 </div>
 
 
-<div class="column is-6">
+<div class="column is-4">
         <div class="card">
             <header class="card-header">
             <p class="card-header-title is-centered">
