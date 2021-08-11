@@ -53,7 +53,7 @@ class DrawCircuit(Scene):
 
 <div class="columns">
     <div class="column is-4">
-        {% include image-modal.html ratio="is-16by9" link="graphics/logic/and.jpg" alt="Example image"%}
+        <img src="graphics/logic/and.jpg">
     </div>
     <div class="column is-8">
         <p>This is a page with the image-modal included. The page needs to be a .html page instead of markdown.</p>
