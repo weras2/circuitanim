@@ -82,7 +82,16 @@ The circuit class is what glues together all of the electrical components in a s
 
 ## Logic Gates
 
-{% include image-modal.html ratio="is-16by9" link="graphics\logic\and.jpg" alt="Example image" %}
+<div class="columns">
+    <div class="column is-4">
+        {% include image-modal.html ratio="is-16by9" link="graphics\logic\and.jpg" alt="Example image" %}
+    </div>
+    <div class="column is-8">
+        <p>This is a page with the image-modal included. The page needs to be a .html page instead of markdown.</p>
+        <p>You can click on the image to see a larger version in a modal.</p>
+        <p>The below snippet shows an example of how to include the image modal.</p>
+    </div>
+</div>
 
 
 
