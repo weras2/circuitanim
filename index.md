@@ -80,10 +80,9 @@ The circuit class is what glues together all of the electrical components in a s
 ### Resistor
 
 
----
-gallery: \_data\\logic_gallery
----
+## Logic Gates
 
+{% include image-modal.html ratio="is-16by9" src="graphics\logic\and.jpg" alt="Example image" %}
 
 
 
