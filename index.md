@@ -111,8 +111,9 @@ class Sample(Scene):
 
 
 <div class="column is-6">
+        <div class="card">
     <div class="card-image">
-        <img src="graphics/logic/nand.jpg" alt="AND gate image">
+        <img src="graphics/logic/nand.jpg" alt="NAND gate image">
     </div>
     <div class="card-content">
         <div class="content">   
