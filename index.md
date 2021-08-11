@@ -87,7 +87,7 @@ The circuit class is what glues together all of the electrical components in a s
 
 ### AND 
 
-<div class="column is-4">
+<div class="column is-6">
         <div class="card">
     <div class="card-image">
         <img src="graphics/logic/and.jpg" alt="AND gate image">
@@ -104,6 +104,7 @@ class Sample(Scene):
           </pre>          
         </div>
     </div>
+</div>
 </div>
 
 ### NAND
