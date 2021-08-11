@@ -80,6 +80,9 @@ The circuit class is what glues together all of the electrical components in a s
 ### Resistor
 
 
+---
+gallery: \_data\\logic_gallery
+---
 
 
 
