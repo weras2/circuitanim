@@ -87,19 +87,22 @@ The circuit class is what glues together all of the electrical components in a s
 
 ### AND 
 
-<div class="columns">
-    <div class="column is-4">
-        <img src="graphics/logic/and.jpg">
+<div class="row is-12">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/logic/and.jpg" alt="AND gate image">
     </div>
-    <div class="column is-8">
-      <pre class ="prettyprint lang-py">
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
 from manimlib.imports import *
 from circuitanimlib.logic import *
 class Sample(Scene):
   def construct(self):
     obj = AND()
     self.play(ShowCreation(obj))
-      </pre>
+          </pre>          
+        </div>
     </div>
 </div>
 
