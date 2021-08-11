@@ -51,16 +51,6 @@ class DrawCircuit(Scene):
 </pre>
 
 
-<div class="columns">
-    <div class="column is-4">
-        <img src="graphics/logic/and.jpg">
-    </div>
-    <div class="column is-8">
-        <p>This is a page with the image-modal included. The page needs to be a .html page instead of markdown.</p>
-        <p>You can click on the image to see a larger version in a modal.</p>
-        <p>The below snippet shows an example of how to include the image modal.</p>
-    </div>
-</div>
 
 
 
@@ -93,6 +83,152 @@ The circuit class is what glues together all of the electrical components in a s
 
 
 ## Logic Gates
+
+### AND 
+
+<div class="columns">
+    <div class="column is-4">
+        <img src="graphics/logic/and.jpg">
+    </div>
+    <div class="column is-8">
+      <pre class ="prettyprint lang-py">
+      from manimlib.imports import *
+      from circuitanimlib.logic import *
+      class Sample(Scene):
+        def construct(self):
+          obj = AND()
+          self.play(ShowCreation(obj))
+      </pre>
+    </div>
+</div>
+
+### NAND
+
+<div class="columns">
+    <div class="column is-4">
+        <img src="graphics/logic/nand.jpg">
+    </div>
+    <div class="column is-8">
+      <pre class ="prettyprint lang-py">
+      from manimlib.imports import *
+      from circuitanimlib.logic import *
+      class Sample(Scene):
+        def construct(self):
+          obj = NAND()
+          self.play(ShowCreation(obj))
+      </pre>
+    </div>
+</div>
+
+
+### OR
+
+<div class="columns">
+    <div class="column is-4">
+        <img src="graphics/logic/or.jpg">
+    </div>
+    <div class="column is-8">
+      <pre class ="prettyprint lang-py">
+      from manimlib.imports import *
+      from circuitanimlib.logic import *
+      class Sample(Scene):
+        def construct(self):
+          obj = OR()
+          self.play(ShowCreation(obj))
+      </pre>
+    </div>
+</div>
+
+### NOR
+
+<div class="columns">
+    <div class="column is-4">
+        <img src="graphics/logic/nor.jpg">
+    </div>
+    <div class="column is-8">
+      <pre class ="prettyprint lang-py">
+      from manimlib.imports import *
+      from circuitanimlib.logic import *
+      class Sample(Scene):
+        def construct(self):
+          obj = NOR()
+          self.play(ShowCreation(obj))
+      </pre>
+    </div>
+</div>
+
+### XOR
+
+<div class="columns">
+    <div class="column is-4">
+        <img src="graphics/logic/xor.jpg">
+    </div>
+    <div class="column is-8">
+      <pre class ="prettyprint lang-py">
+      from manimlib.imports import *
+      from circuitanimlib.logic import *
+      class Sample(Scene):
+        def construct(self):
+          obj = XOR()
+          self.play(ShowCreation(obj))
+      </pre>
+    </div>
+</div>
+
+
+### XNOR
+
+<div class="columns">
+    <div class="column is-4">
+        <img src="graphics/logic/xnor.jpg">
+    </div>
+    <div class="column is-8">
+      <pre class ="prettyprint lang-py">
+      from manimlib.imports import *
+      from circuitanimlib.logic import *
+      class Sample(Scene):
+        def construct(self):
+          obj = XNOR()
+          self.play(ShowCreation(obj))
+      </pre>
+    </div>
+</div>
+
+### Buffer
+
+<div class="columns">
+    <div class="column is-4">
+        <img src="graphics/logic/buffer.jpg">
+    </div>
+    <div class="column is-8">
+      <pre class ="prettyprint lang-py">
+      from manimlib.imports import *
+      from circuitanimlib.logic import *
+      class Sample(Scene):
+        def construct(self):
+          obj = Buffer()
+          self.play(ShowCreation(obj))
+      </pre>
+    </div>
+</div>
+
+### NOT
+
+<div class="columns">
+    <div class="column is-4">
+        <img src="graphics/logic/not.jpg">
+    </div>
+    <div class="column is-8">
+      <pre class ="prettyprint lang-py">
+      from manimlib.imports import *
+      from circuitanimlib.logic import *
+      class Sample(Scene):
+        def construct(self):
+          obj = NOT()
+          self.play(ShowCreation(obj))
+      </pre>
+    </div>
+</div>
 
 
 
