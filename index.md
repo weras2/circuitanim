@@ -51,6 +51,18 @@ class DrawCircuit(Scene):
 </pre>
 
 
+<div class="columns">
+    <div class="column is-4">
+        {% include image-modal.html ratio="is-16by9" link="graphics/logic/and.jpg" alt="Example image"%}
+    </div>
+    <div class="column is-8">
+        <p>This is a page with the image-modal included. The page needs to be a .html page instead of markdown.</p>
+        <p>You can click on the image to see a larger version in a modal.</p>
+        <p>The below snippet shows an example of how to include the image modal.</p>
+    </div>
+</div>
+
+
 
 ## Set Up
 
@@ -82,16 +94,6 @@ The circuit class is what glues together all of the electrical components in a s
 
 ## Logic Gates
 
-<div class="columns">
-    <div class="column is-4">
-        {% include image-modal.html ratio="is-16by9" link="graphics/logic/and.jpg" alt="Example image" large_link="graphics/logic/and.jpg" %}
-    </div>
-    <div class="column is-8">
-        <p>This is a page with the image-modal included. The page needs to be a .html page instead of markdown.</p>
-        <p>You can click on the image to see a larger version in a modal.</p>
-        <p>The below snippet shows an example of how to include the image modal.</p>
-    </div>
-</div>
 
 
 
@@ -132,3 +134,7 @@ By default, the mosfet is rendered as nmos. If you would like to render it as pm
 - <code class = "prettyprint lang-py">get_drain()</code> Returns coordinates of the drain terminal <br/>
 - <code class = "prettyprint lang-py">get_gate()</code> Returns coordinates of the gate terminal <br/>
 - <code class = "prettyprint lang-py">get_source()</code> Returns coordinates of the source terminal <br/>
+
+
+
+
