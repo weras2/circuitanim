@@ -85,15 +85,12 @@ The circuit class is what glues together all of the electrical components in a s
 
 ## Logic Gates
 
+<link rel="stylesheet" type = "text/css" href="mod.css">
 
+<div class="columns">
 
-<div class="column is-4">
+<div class="column is-6">
         <div class="card">
-            <header class="card-header">
-            <p class="card-header-title is-centered">
-              AND Gate
-            </p>
-          </header>
     <div class="card-image">
         <img src="graphics/logic/and.jpg" alt="AND gate image">
     </div>
@@ -113,13 +110,7 @@ class Sample(Scene):
 </div>
 
 
-<div class="column is-4">
-        <div class="card">
-            <header class="card-header">
-            <p class="card-header-title is-centered">
-              NAND Gate
-            </p>
-          </header>
+<div class="column is-6">
     <div class="card-image">
         <img src="graphics/logic/nand.jpg" alt="AND gate image">
     </div>
@@ -136,6 +127,8 @@ class Sample(Scene):
         </div>
     </div>
 </div>
+</div>
+
 </div>
 
 
