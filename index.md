@@ -58,7 +58,7 @@ class DrawCircuit(Scene):
 
 For up-to-date installation, see the Github readme which can be found [here](https://github.com/weras2/circuitanim).  
 
-## Driver Class
+## Driver Classes
 
 ### Circuit
 <pre class ="prettyprint lang-py">
@@ -70,6 +70,7 @@ The circuit class is what glues together all of the electrical components in a s
 - <code class = "prettyprint lang-py">connect(point1,point2,pin_top=False)</code> Method for connecting electrical components, preferably from left to right. The function takes in two terminal coordinates to connect. The terminal coordinates can be found using methods specific to the electrical component. The optional parameter <code class = "prettyprint lang-py">pin_top=False</code> just specifies whether the anchor point of the 90 degree bend should lie in the horizontal axis of the first point (<code class = "prettyprint lang-py">False</code>) or second point(<code class = "prettyprint lang-py">True</code>). <br/>
 - <code class = "prettyprint lang-py">connect_right_to_left(point1,point2)</code> Method for connecting electrical components, specifically designed for when the first terminal (point) lies to the right of the second terminal. <br/>
 - <code class = "prettyprint lang-py">render()</code> Adds all points onto the Mobject for rendering.
+
 
 ## Basic Electrical Components 
 
@@ -92,12 +93,12 @@ The circuit class is what glues together all of the electrical components in a s
     </div>
     <div class="column is-8">
       <pre class ="prettyprint lang-py">
-      from manimlib.imports import *
-      from circuitanimlib.logic import *
-      class Sample(Scene):
-        def construct(self):
-          obj = AND()
-          self.play(ShowCreation(obj))
+from manimlib.imports import *
+from circuitanimlib.logic import *
+class Sample(Scene):
+  def construct(self):
+    obj = AND()
+    self.play(ShowCreation(obj))
       </pre>
     </div>
 </div>
@@ -110,12 +111,12 @@ The circuit class is what glues together all of the electrical components in a s
     </div>
     <div class="column is-8">
       <pre class ="prettyprint lang-py">
-      from manimlib.imports import *
-      from circuitanimlib.logic import *
-      class Sample(Scene):
-        def construct(self):
-          obj = NAND()
-          self.play(ShowCreation(obj))
+from manimlib.imports import *
+from circuitanimlib.logic import *
+class Sample(Scene):
+  def construct(self):
+    obj = NAND()
+    self.play(ShowCreation(obj))
       </pre>
     </div>
 </div>
@@ -129,12 +130,12 @@ The circuit class is what glues together all of the electrical components in a s
     </div>
     <div class="column is-8">
       <pre class ="prettyprint lang-py">
-      from manimlib.imports import *
-      from circuitanimlib.logic import *
-      class Sample(Scene):
-        def construct(self):
-          obj = OR()
-          self.play(ShowCreation(obj))
+from manimlib.imports import *
+from circuitanimlib.logic import *
+class Sample(Scene):
+  def construct(self):
+    obj = OR()
+    self.play(ShowCreation(obj))
       </pre>
     </div>
 </div>
@@ -147,12 +148,12 @@ The circuit class is what glues together all of the electrical components in a s
     </div>
     <div class="column is-8">
       <pre class ="prettyprint lang-py">
-      from manimlib.imports import *
-      from circuitanimlib.logic import *
-      class Sample(Scene):
-        def construct(self):
-          obj = NOR()
-          self.play(ShowCreation(obj))
+from manimlib.imports import *
+from circuitanimlib.logic import *
+class Sample(Scene):
+  def construct(self):
+    obj = NOR()
+    self.play(ShowCreation(obj))
       </pre>
     </div>
 </div>
@@ -165,12 +166,12 @@ The circuit class is what glues together all of the electrical components in a s
     </div>
     <div class="column is-8">
       <pre class ="prettyprint lang-py">
-      from manimlib.imports import *
-      from circuitanimlib.logic import *
-      class Sample(Scene):
-        def construct(self):
-          obj = XOR()
-          self.play(ShowCreation(obj))
+from manimlib.imports import *
+from circuitanimlib.logic import *
+class Sample(Scene):
+  def construct(self):
+    obj = XOR()
+    self.play(ShowCreation(obj))
       </pre>
     </div>
 </div>
@@ -184,12 +185,12 @@ The circuit class is what glues together all of the electrical components in a s
     </div>
     <div class="column is-8">
       <pre class ="prettyprint lang-py">
-      from manimlib.imports import *
-      from circuitanimlib.logic import *
-      class Sample(Scene):
-        def construct(self):
-          obj = XNOR()
-          self.play(ShowCreation(obj))
+from manimlib.imports import *
+from circuitanimlib.logic import *
+class Sample(Scene):
+  def construct(self):
+    obj = XNOR()
+    self.play(ShowCreation(obj))
       </pre>
     </div>
 </div>
@@ -202,12 +203,12 @@ The circuit class is what glues together all of the electrical components in a s
     </div>
     <div class="column is-8">
       <pre class ="prettyprint lang-py">
-      from manimlib.imports import *
-      from circuitanimlib.logic import *
-      class Sample(Scene):
-        def construct(self):
-          obj = Buffer()
-          self.play(ShowCreation(obj))
+from manimlib.imports import *
+from circuitanimlib.logic import *
+class Sample(Scene):
+  def construct(self):
+    obj = Buffer()
+    self.play(ShowCreation(obj))
       </pre>
     </div>
 </div>
@@ -220,12 +221,12 @@ The circuit class is what glues together all of the electrical components in a s
     </div>
     <div class="column is-8">
       <pre class ="prettyprint lang-py">
-      from manimlib.imports import *
-      from circuitanimlib.logic import *
-      class Sample(Scene):
-        def construct(self):
-          obj = NOT()
-          self.play(ShowCreation(obj))
+from manimlib.imports import *
+from circuitanimlib.logic import *
+class Sample(Scene):
+  def construct(self):
+    obj = NOT()
+    self.play(ShowCreation(obj))
       </pre>
     </div>
 </div>
