@@ -89,7 +89,11 @@ The circuit class is what glues together all of the electrical components in a s
 
 <div class="column is-6">
         <div class="card">
-          <p class = "title">AND</p>
+            <header class="card-header">
+            <p class="card-header-title is-centered">
+              AND Gate
+            </p>
+          </header>
     <div class="card-image">
         <img src="graphics/logic/and.jpg" alt="AND gate image">
     </div>
