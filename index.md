@@ -112,22 +112,30 @@ class Sample(Scene):
 </div>
 </div>
 
-### NAND
 
-<div class="columns">
-    <div class="column is-4">
-        <img src="graphics/logic/nand.jpg">
+<div class="column is-6">
+        <div class="card">
+            <header class="card-header">
+            <p class="card-header-title is-centered">
+              NAND Gate
+            </p>
+          </header>
+    <div class="card-image">
+        <img src="graphics/logic/nand.jpg" alt="AND gate image">
     </div>
-    <div class="column is-8">
-      <pre class ="prettyprint lang-py">
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
 from manimlib.imports import *
 from circuitanimlib.logic import *
 class Sample(Scene):
   def construct(self):
     obj = NAND()
     self.play(ShowCreation(obj))
-      </pre>
+          </pre>          
+        </div>
     </div>
+</div>
 </div>
 
 
