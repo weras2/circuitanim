@@ -302,6 +302,58 @@ class Bjt(CircuitComponent)
 
 By default, the bjt is rendered as npn. If you would like to render a pnp bjt, then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_pnp</code> and set it to <code class = "prettyprint lang-py">False</code> like so <code class = "prettyprint lang-py">Bjt(is_pnp=False)</code>. 
 
+
+<div class="columns">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/transistors/bjt_npn.jpg" alt="bjt pnp image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Bjt()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/transistors/bjt_pnp.jpg" alt="bjt npn image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Bjt(is_pnp=False)
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
 #### Methods
 - <code class = "prettyprint lang-py">get_base()</code> Returns coordinates of the base terminal <br/>
 - <code class = "prettyprint lang-py">get_collector()</code> Returns coordinates of the collector terminal <br/>
@@ -311,6 +363,51 @@ By default, the bjt is rendered as npn. If you would like to render a pnp bjt, t
 ### Mosfets
 
 By default, the mosfet is rendered as nmos. If you would like to render it as pmos,  then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_nmos</code> and set it to <code class = "prettyprint lang-py">False</code> like so <code class = "prettyprint lang-py">Mosfet(is_nmos=False)</code>.
+
+<div class="columns">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/transistors/mosfet_nmos.jpg" alt="nmos image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Mosfet()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/transistors/mosfet_pmos.jpg" alt="pmos image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Mosfet(is_nmos=False)
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
 
 #### Methods
 - <code class = "prettyprint lang-py">get_drain()</code> Returns coordinates of the drain terminal <br/>
