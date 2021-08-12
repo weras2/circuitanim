@@ -85,6 +85,8 @@ The circuit class is what glues together all of the electrical components in a s
 
 ## Logic Gates
 
+### AND & NAND
+
 <link rel="stylesheet" type = "text/css" href="mod.css">
 
 <div class="columns">
@@ -133,113 +135,145 @@ class Sample(Scene):
 </div>
 
 
-### OR
+### OR & NOR
 
 <div class="columns">
-    <div class="column is-4">
-        <img src="graphics/logic/or.jpg">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/logic/or.jpg" alt="OR gate image">
     </div>
-    <div class="column is-8">
-      <pre class ="prettyprint lang-py">
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
 from manimlib.imports import *
 from circuitanimlib.logic import *
 class Sample(Scene):
   def construct(self):
     obj = OR()
     self.play(ShowCreation(obj))
-      </pre>
+          </pre>          
+        </div>
     </div>
 </div>
+</div>
 
-### NOR
 
-<div class="columns">
-    <div class="column is-4">
-        <img src="graphics/logic/nor.jpg">
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/logic/nor.jpg" alt="NOR gate image">
     </div>
-    <div class="column is-8">
-      <pre class ="prettyprint lang-py">
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
 from manimlib.imports import *
 from circuitanimlib.logic import *
 class Sample(Scene):
   def construct(self):
     obj = NOR()
     self.play(ShowCreation(obj))
-      </pre>
+          </pre>          
+        </div>
     </div>
 </div>
+</div>
 
-### XOR
+</div>
+
+### XOR & XNOR
 
 <div class="columns">
-    <div class="column is-4">
-        <img src="graphics/logic/xor.jpg">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/logic/xor.jpg" alt="XOR gate image">
     </div>
-    <div class="column is-8">
-      <pre class ="prettyprint lang-py">
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
 from manimlib.imports import *
 from circuitanimlib.logic import *
 class Sample(Scene):
   def construct(self):
     obj = XOR()
     self.play(ShowCreation(obj))
-      </pre>
+          </pre>          
+        </div>
     </div>
+</div>
 </div>
 
 
-### XNOR
-
-<div class="columns">
-    <div class="column is-4">
-        <img src="graphics/logic/xnor.jpg">
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/logic/xnor.jpg" alt="XNOR gate image">
     </div>
-    <div class="column is-8">
-      <pre class ="prettyprint lang-py">
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
 from manimlib.imports import *
 from circuitanimlib.logic import *
 class Sample(Scene):
   def construct(self):
     obj = XNOR()
     self.play(ShowCreation(obj))
-      </pre>
+          </pre>          
+        </div>
     </div>
 </div>
+</div>
 
-### Buffer
+</div>
+
+### Buffer & NOT
 
 <div class="columns">
-    <div class="column is-4">
-        <img src="graphics/logic/buffer.jpg">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/logic/buffer.jpg" alt="Buffer gate image">
     </div>
-    <div class="column is-8">
-      <pre class ="prettyprint lang-py">
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
 from manimlib.imports import *
 from circuitanimlib.logic import *
 class Sample(Scene):
   def construct(self):
     obj = Buffer()
     self.play(ShowCreation(obj))
-      </pre>
+          </pre>          
+        </div>
     </div>
 </div>
+</div>
 
-### NOT
 
-<div class="columns">
-    <div class="column is-4">
-        <img src="graphics/logic/not.jpg">
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/logic/not.jpg" alt="NOT gate image">
     </div>
-    <div class="column is-8">
-      <pre class ="prettyprint lang-py">
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
 from manimlib.imports import *
 from circuitanimlib.logic import *
 class Sample(Scene):
   def construct(self):
     obj = NOT()
     self.play(ShowCreation(obj))
-      </pre>
+          </pre>          
+        </div>
     </div>
+</div>
+</div>
+
 </div>
 
 
