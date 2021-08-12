@@ -285,7 +285,104 @@ class Sample(Scene):
 
 ### Current Source
 
+
+<div class="columns">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/power_sources/current_source_independent.jpg" alt="Independent Current Source Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = CurrentSource()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/power_sources/current_source_dependent.jpg" alt="Dependent Current Source Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = CurrentSource(is_dependent=True)
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
 ### Voltage Source
+
+
+<div class="columns">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/power_sources/voltage_source_independent.jpg" alt="Independent Voltage Source Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = VoltageSource()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/power_sources/voltage_source_dependent.jpg" alt="Dependent Voltage Source Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = VoltageSource(is_dependent=True)
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
 
 
 
