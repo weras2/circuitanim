@@ -76,7 +76,127 @@ The circuit class is what glues together all of the electrical components in a s
 
 ### Capacitor
 
+<div class="columns">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/basic/capacitor.jpg" alt="Default Capacitor Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Capacitor()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/basic/capacitor_polar.jpg" alt="Polar Capacitor Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Capacitor(is_polar=True)
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+
 ### Diode 
+
+
+<div class="columns">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/basic/diode_default.jpg" alt="Default Diode Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Diode()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/basic/diode_zener.jpg" alt="Zener Diode Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Diode(diode_type=DIODE_ZENER)
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/basic/diode_schottky.jpg" alt="Schottky Diode Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Diode(diode_type=DIODE_SCHOTTKY)
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
 
 ### Inductor 
 
@@ -281,7 +401,10 @@ class Sample(Scene):
 
 ## Power Sources 
 
+
 ### Battery 
+
+
 
 ### Current Source
 
