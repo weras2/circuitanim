@@ -224,6 +224,8 @@ class Sample(Scene):
 </div>
 </div>
 
+</div>
+
 
 ### Resistor
 
@@ -246,6 +248,8 @@ class Sample(Scene):
         </div>
     </div>
 </div>
+</div>
+
 </div>
 
 
