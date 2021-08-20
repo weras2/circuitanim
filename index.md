@@ -169,7 +169,10 @@ class Sample(Scene):
 </div>
 </div>
 
+</div>
 
+
+<div class="columns">
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
@@ -200,7 +203,50 @@ class Sample(Scene):
 
 ### Inductor 
 
+<div class="columns">
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/basic/inductor.jpg" alt="Inductor Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Inductor()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+
+
 ### Resistor
+
+<div class="columns">
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/basic/resistor.jpg" alt="Resistor Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Resistor()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
 
 
 ## Logic Gates
@@ -401,8 +447,59 @@ class Sample(Scene):
 
 ## Power Sources 
 
+### AC Source
+
+
+
+<div class="columns">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+          <video controls="true" allowfullscreen="true" poster="graphics/power_sources/ac_source.jpg"><source src="graphics/videos/ac_source.mp4" type="video/mp4"></video> 
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = ACSource()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
 
 ### Battery 
+
+
+<div class="columns">
+
+<div class="column is-6">
+        <div class="card">
+    <div class="card-image">
+        <img src="graphics/power_sources/battery.jpg" alt="Battery Image">
+    </div>
+    <div class="card-content">
+        <div class="content">   
+          <pre class ="prettyprint lang-py">
+from manimlib.imports import *
+from circuitanimlib.circuit import *
+class Sample(Scene):
+  def construct(self):
+    obj = Battery()
+    self.play(ShowCreation(obj))
+          </pre>          
+        </div>
+    </div>
+</div>
+</div>
+</div>
 
 
 
