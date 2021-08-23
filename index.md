@@ -353,7 +353,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/logic/or.jpg" alt="OR gate image">
+        <video controls="true" allowfullscreen="true" poster="graphics/logic/or.jpg"><source src="graphics/videos/or.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -374,7 +374,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/logic/nor.jpg" alt="NOR gate image">
+        <video controls="true" allowfullscreen="true" poster="graphics/logic/nor.jpg"><source src="graphics/videos/nor.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -403,7 +403,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/logic/xor.jpg" alt="XOR gate image">
+        <video controls="true" allowfullscreen="true" poster="graphics/logic/xor.jpg"><source src="graphics/videos/xor.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -424,7 +424,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/logic/xnor.jpg" alt="XNOR gate image">
+        <video controls="true" allowfullscreen="true" poster="graphics/logic/xnor.jpg"><source src="graphics/videos/xnor.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -452,7 +452,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/logic/buffer.jpg" alt="Buffer gate image">
+        <video controls="true" allowfullscreen="true" poster="graphics/logic/buffer.jpg"><source src="graphics/videos/buffer.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -473,7 +473,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/logic/not.jpg" alt="NOT gate image">
+        <video controls="true" allowfullscreen="true" poster="graphics/logic/not.jpg"><source src="graphics/videos/not.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
