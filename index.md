@@ -162,7 +162,7 @@ By default, a standard diode is rendered. If you wish to change the diode type, 
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/basic/diode_default.jpg" alt="Default Diode Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/basic/diode_default.jpg"><source src="graphics/videos/diode_default.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -183,7 +183,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/basic/diode_zener.jpg" alt="Zener Diode Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/basic/diode_zener.jpg"><source src="graphics/videos/diode_zener.mp4" type="video/mp4"></video>
     </div>
     <div class="card-content">
         <div class="content">   
@@ -207,7 +207,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/basic/diode_schottky.jpg" alt="Schottky Diode Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/basic/diode_schottky.jpg"><source src="graphics/videos/diode_schottky.mp4" type="video/mp4"></video>
     </div>
     <div class="card-content">
         <div class="content">   
