@@ -71,6 +71,25 @@ The circuit class is what glues together all of the electrical components in a s
 - <code class = "prettyprint lang-py">connect_right_to_left(point1,point2)</code> Method for connecting electrical components, specifically designed for when the first terminal (point) lies to the right of the second terminal. <br/>
 - <code class = "prettyprint lang-py">render()</code> Adds all points onto the Mobject for rendering.
 
+## CircuitComponent 
+<pre class ="prettyprint lang-py">class CircuitComponent(VMobject)</pre>
+The CircuitComponent class is the parent class of all circuit components, except for logic gates. 
+
+### Methods 
+
+- <code class = "prettyprint lang-py">get_left()</code> Method for getting coordinate of the leftmost terminal (point). Returns a 3D numpy array. 
+- <code class = "prettyprint lang-py">get_right()</code> Method for getting coordinate of rightmost terminal (point). Returns a 3D numpy array. 
+
+## LogicGate
+<pre class ="prettyprint lang-py">class LogicGate(VMobject)</pre>
+The LogicGate class is the parent class of the 8 available logic gates. 
+
+- <code class = "prettyprint lang-py">get_inputA()</code> Method for getting coordinate of the first input terminal (point). Returns a 3D numpy array. 
+- <code class = "prettyprint lang-py">get_inputB()</code> Method for getting coordinate of the second input terminal (point). Returns a 3D numpy array. 
+- <code class = "prettyprint lang-py">get_output()</code> Method for getting coordinate of the output terminal (point). Returns a 3D numpy array. 
+
+
+
 
 ## Basic Electrical Components 
 
@@ -271,9 +290,10 @@ class Sample(Scene):
 
 ## Logic Gates
 
-<pre class ="prettyprint lang-py">class AND(LogicGate) // class NAND(LogicGate)</pre>
 
 ### AND & NAND
+
+<pre class ="prettyprint lang-py">class AND(LogicGate) // class NAND(LogicGate)</pre>
 
 <link rel="stylesheet" type = "text/css" href="mod.css">
 
