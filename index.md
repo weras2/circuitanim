@@ -303,7 +303,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/logic/and.jpg" alt="AND gate image">
+        <video controls="true" allowfullscreen="true" poster="graphics/logic/and.jpg"><source src="graphics/videos/and.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -324,7 +324,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/logic/nand.jpg" alt="NAND gate image">
+        <video controls="true" allowfullscreen="true" poster="graphics/logic/nand.jpg"><source src="graphics/videos/nand.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
