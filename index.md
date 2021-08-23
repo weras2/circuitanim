@@ -71,19 +71,20 @@ The circuit class is what glues together all of the electrical components in a s
 - <code class = "prettyprint lang-py">connect_right_to_left(point1,point2)</code> Method for connecting electrical components, specifically designed for when the first terminal (point) lies to the right of the second terminal. <br/>
 - <code class = "prettyprint lang-py">render()</code> Adds all points onto the Mobject for rendering.
 
-## CircuitComponent 
+### CircuitComponent 
 <pre class ="prettyprint lang-py">class CircuitComponent(VMobject)</pre>
 The CircuitComponent class is the parent class of all circuit components, except for logic gates. 
 
-### Methods 
+#### Methods 
 
 - <code class = "prettyprint lang-py">get_left()</code> Method for getting coordinate of the leftmost terminal (point). Returns a 3D numpy array. 
 - <code class = "prettyprint lang-py">get_right()</code> Method for getting coordinate of rightmost terminal (point). Returns a 3D numpy array. 
 
-## LogicGate
+### LogicGate
 <pre class ="prettyprint lang-py">class LogicGate(VMobject)</pre>
 The LogicGate class is the parent class of the 8 available logic gates. 
 
+#### Methods
 - <code class = "prettyprint lang-py">get_inputA()</code> Method for getting coordinate of the first input terminal (point). Returns a 3D numpy array. 
 - <code class = "prettyprint lang-py">get_inputB()</code> Method for getting coordinate of the second input terminal (point). Returns a 3D numpy array. 
 - <code class = "prettyprint lang-py">get_output()</code> Method for getting coordinate of the output terminal (point). Returns a 3D numpy array. 
@@ -97,7 +98,7 @@ The LogicGate class is the parent class of the 8 available logic gates.
 
 ### Capacitor
 
-<pre class ="prettyprint lang-py">class Capacitor(CircuitComponent)</pre>
+
 
 By default, a non-polar capacitor is rendered. If you wish to render a polar capacitor, you can pass the optional parameter <code class = "prettyprint lang-py">is_polar</code> and set qit equal to <code class = "prettyprint lang-py">True</code>   
 
@@ -152,7 +153,7 @@ class Sample(Scene):
 
 ### Diode 
 
-<pre class ="prettyprint lang-py">class Diode(CircuitComponent)</pre>
+
 
 By default, a standard diode is rendered. If you wish to change the diode type, in the constructor you can pass the optional parameter <code class ="prettyprint lang-py">diode_type</code> and specify one of the supported enums: <code class ="prettyprint lang-py">DIODE_DEFAULT</code>, <code class ="prettyprint lang-py">DIODE_ZENER</code>, <code class ="prettyprint lang-py">DIODE_SCHOTTKY</code>. 
 
@@ -233,7 +234,7 @@ class Sample(Scene):
 
 ### Inductor 
 
-<pre class ="prettyprint lang-py">class Inductor(CircuitComponent)</pre>
+
 
 
 <div class="columns">
@@ -262,7 +263,7 @@ class Sample(Scene):
 
 ### Resistor
 
-<pre class ="prettyprint lang-py">class Resistor(CircuitComponent)</pre>
+
 
 <div class="columns">
 <div class="column is-6">
@@ -293,7 +294,7 @@ class Sample(Scene):
 
 ### AND & NAND
 
-<pre class ="prettyprint lang-py">class AND(LogicGate) // class NAND(LogicGate)</pre>
+
 
 <link rel="stylesheet" type = "text/css" href="mod.css">
 
@@ -345,7 +346,7 @@ class Sample(Scene):
 
 ### OR & NOR
 
-<pre class ="prettyprint lang-py">class OR(LogicGate) // class NOR(LogicGate)</pre>
+
 
 <div class="columns">
 
@@ -394,7 +395,7 @@ class Sample(Scene):
 
 ### XOR & XNOR
 
-<pre class ="prettyprint lang-py">class XOR(LogicGate) // class XNOR(LogicGate)</pre>
+
 
 
 <div class="columns">
@@ -444,7 +445,7 @@ class Sample(Scene):
 
 ### Buffer & NOT
 
-<pre class ="prettyprint lang-py">class Buffer(LogicGate) // class NOT(LogicGate)</pre>
+
 
 <div class="columns">
 
@@ -497,7 +498,7 @@ class Sample(Scene):
 ## Power Sources 
 
 ### AC Source
-<pre class ="prettyprint lang-py">class ACSource(CircuitComponent)</pre>
+
 <div class="columns">
 
 <div class="column is-6">
@@ -524,7 +525,6 @@ class Sample(Scene):
 
 ### Battery 
 
-<pre class ="prettyprint lang-py">class Battery(CircuitComponent)</pre>
 
 <div class="columns">
 
@@ -553,7 +553,7 @@ class Sample(Scene):
 
 ### Current Source
 
-<pre class ="prettyprint lang-py">class CurrentSource(CircuitComponent)</pre>
+
 <div class="columns">
 
 <div class="column is-6">
@@ -605,7 +605,7 @@ class Sample(Scene):
 
 ### Voltage Source
 
-<pre class ="prettyprint lang-py">class VoltageSource(CircuitComponent)</pre>
+
 <div class="columns">
 
 <div class="column is-6">
@@ -661,9 +661,7 @@ message=" Note: Transistors have more than two terminals so avoid the use of get
 
 
 ### BJTs 
-<pre class ="prettyprint lang-py">
-class Bjt(CircuitComponent)
-</pre>
+
 
 By default, the bjt is rendered as npn. If you would like to render a pnp bjt, then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_pnp</code> and set it to <code class = "prettyprint lang-py">False</code> like so <code class = "prettyprint lang-py">Bjt(is_pnp=False)</code>. 
 
