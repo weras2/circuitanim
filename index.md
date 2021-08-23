@@ -559,7 +559,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/power_sources/current_source_independent.jpg" alt="Independent Current Source Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/power_sources/current_source_independent.jpg"><source src="graphics/videos/current_source_independent.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -580,7 +580,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/power_sources/current_source_dependent.jpg" alt="Dependent Current Source Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/power_sources/current_source_dependent.jpg"><source src="graphics/videos/current_source_dependent.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -611,7 +611,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/power_sources/voltage_source_independent.jpg" alt="Independent Voltage Source Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/power_sources/voltage_source_independent.jpg"><source src="graphics/videos/voltage_source_independent.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -632,7 +632,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/power_sources/voltage_source_dependent.jpg" alt="Dependent Voltage Source Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/power_sources/voltage_source_dependent.jpg"><source src="graphics/videos/voltage_source_dependent.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
