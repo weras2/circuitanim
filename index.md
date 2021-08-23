@@ -78,9 +78,9 @@ The circuit class is what glues together all of the electrical components in a s
 
 ### Capacitor
 
-<pre class ="prettyprint lang-py">class Circuit(VMobject)</pre>
+<pre class ="prettyprint lang-py">class Capacitor(CircuitComponent)</pre>
 
-By default, a non-polar capacitor is rendered. If you wish to render a polar capacitor, you can pass the optional parameter <code class = "prettyprint lang-py">is_polar</code> and set it equal to <code class = "prettyprint lang-py">True</code>   
+By default, a non-polar capacitor is rendered. If you wish to render a polar capacitor, you can pass the optional parameter <code class = "prettyprint lang-py">is_polar</code> and set qit equal to <code class = "prettyprint lang-py">True</code>   
 
 
 
@@ -133,7 +133,7 @@ class Sample(Scene):
 
 ### Diode 
 
-<pre class ="prettyprint lang-py">class Circuit(VMobject)</pre>
+<pre class ="prettyprint lang-py">class Diode(CircuitComponent)</pre>
 
 By default, a standard diode is rendered. If you wish to change the diode type, in the constructor you can pass the optional parameter <code class ="prettyprint lang-py">diode_type</code> and specify one of the supported enums: <code class ="prettyprint lang-py">DIODE_DEFAULT</code>, <code class ="prettyprint lang-py">DIODE_ZENER</code>, <code class ="prettyprint lang-py">DIODE_SCHOTTKY</code>. 
 
@@ -214,6 +214,9 @@ class Sample(Scene):
 
 ### Inductor 
 
+<pre class ="prettyprint lang-py">class Inductor(CircuitComponent)</pre>
+
+
 <div class="columns">
 <div class="column is-6">
         <div class="card">
@@ -240,6 +243,8 @@ class Sample(Scene):
 
 ### Resistor
 
+<pre class ="prettyprint lang-py">class Resistor(CircuitComponent)</pre>
+
 <div class="columns">
 <div class="column is-6">
         <div class="card">
@@ -265,6 +270,8 @@ class Sample(Scene):
 
 
 ## Logic Gates
+
+<pre class ="prettyprint lang-py">class AND(LogicGate) // class NAND(LogicGate)</pre>
 
 ### AND & NAND
 
@@ -318,6 +325,8 @@ class Sample(Scene):
 
 ### OR & NOR
 
+<pre class ="prettyprint lang-py">class OR(LogicGate) // class NOR(LogicGate)</pre>
+
 <div class="columns">
 
 <div class="column is-6">
@@ -365,6 +374,9 @@ class Sample(Scene):
 
 ### XOR & XNOR
 
+<pre class ="prettyprint lang-py">class XOR(LogicGate) // class XNOR(LogicGate)</pre>
+
+
 <div class="columns">
 
 <div class="column is-6">
@@ -411,6 +423,8 @@ class Sample(Scene):
 </div>
 
 ### Buffer & NOT
+
+<pre class ="prettyprint lang-py">class Buffer(LogicGate) // class NOT(LogicGate)</pre>
 
 <div class="columns">
 
@@ -463,9 +477,7 @@ class Sample(Scene):
 ## Power Sources 
 
 ### AC Source
-
-
-
+<pre class ="prettyprint lang-py">class ACSource(CircuitComponent)</pre>
 <div class="columns">
 
 <div class="column is-6">
@@ -492,6 +504,7 @@ class Sample(Scene):
 
 ### Battery 
 
+<pre class ="prettyprint lang-py">class Battery(CircuitComponent)</pre>
 
 <div class="columns">
 
@@ -520,7 +533,7 @@ class Sample(Scene):
 
 ### Current Source
 
-
+<pre class ="prettyprint lang-py">class CurrentSource(CircuitComponent)</pre>
 <div class="columns">
 
 <div class="column is-6">
@@ -572,7 +585,7 @@ class Sample(Scene):
 
 ### Voltage Source
 
-
+<pre class ="prettyprint lang-py">class VoltageSource(CircuitComponent)</pre>
 <div class="columns">
 
 <div class="column is-6">
