@@ -2,12 +2,19 @@
 
 from manimlib.imports import *
 
+<<<<<<< HEAD
 #from manimlib.mobject.geometry import *;
 
 from circuitanimlib.circuit import *
 
 from circuitanimlib.logic import *
 
+=======
+from manimlib.mobject.geometry import TipableVMobject;
+
+from circuitanimlib.circuit import *
+
+>>>>>>> 9a3d9e8fec15fb8887b558f1a331e6de84e47b2a
 # To watch one of these scenes, run the following:
 # python -m manim example.py DrawCircuit -pl
 #
@@ -21,6 +28,7 @@ from circuitanimlib.logic import *
 # for a 1920x1080 video)
 
 
+<<<<<<< HEAD
 #Capacitor
 #Diode
 #Inductor
@@ -33,6 +41,15 @@ from circuitanimlib.logic import *
 #Bjt
 #Mosfet
 
+=======
+
+#Resistor
+#Capacitor
+#Battery
+#Diode
+#Bjt
+#Mosfet (WIP)
+>>>>>>> 9a3d9e8fec15fb8887b558f1a331e6de84e47b2a
 
 
 
@@ -58,6 +75,7 @@ class DrawCircuit(Scene):
         
         self.play(ShowCreation(batt),ShowCreation(res),ShowCreation(cap),ShowCreation(circ),run_time=3)
 
+<<<<<<< HEAD
 
 
 
@@ -146,3 +164,5 @@ class LCircuit(Scene):
         circ.render()
 
         self.play(ShowCreation(obj1),ShowCreation(circ),ShowCreation(obj2))
+=======
+>>>>>>> 9a3d9e8fec15fb8887b558f1a331e6de84e47b2a

@@ -60,6 +60,7 @@ from manimlib.mobject.mobject_update_utils import *
 from manimlib.mobject.value_tracker import *
 from manimlib.mobject.vector_field import *
 
+<<<<<<< HEAD
 #from manimlib.for_3b1b_videos.common_scenes import *
 #from manimlib.for_3b1b_videos.pi_creature import *
 #from manimlib.for_3b1b_videos.pi_creature_animations import *
@@ -72,6 +73,20 @@ from manimlib.mobject.vector_field import *
 #from manimlib.once_useful_constructs.fractals import *
 #from manimlib.once_useful_constructs.graph_theory import *
 #from manimlib.once_useful_constructs.light import *
+=======
+from manimlib.for_3b1b_videos.common_scenes import *
+from manimlib.for_3b1b_videos.pi_creature import *
+from manimlib.for_3b1b_videos.pi_creature_animations import *
+from manimlib.for_3b1b_videos.pi_creature_scene import *
+
+from manimlib.once_useful_constructs.arithmetic import *
+from manimlib.once_useful_constructs.combinatorics import *
+from manimlib.once_useful_constructs.complex_transformation_scene import *
+from manimlib.once_useful_constructs.counting import *
+from manimlib.once_useful_constructs.fractals import *
+from manimlib.once_useful_constructs.graph_theory import *
+from manimlib.once_useful_constructs.light import *
+>>>>>>> 9a3d9e8fec15fb8887b558f1a331e6de84e47b2a
 
 from manimlib.scene.graph_scene import *
 from manimlib.scene.moving_camera_scene import *

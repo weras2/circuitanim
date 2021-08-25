@@ -1,0 +1,418 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=latex 2020.12.21)  28 JUL 2021 21:48
+entering extended mode
+**"C:/Users/Juan Perez/Documents/GitHub/circuitanim/media/Tex/80ed8d4981768252.
+tex"
+
+("C:/Users/Juan Perez/Documents/GitHub/circuitanim/media/Tex/80ed8d4981768252.t
+ex"
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-07> xparse <2020-03-03>
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/standalone\standa
+lone.cls"
+Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
+dalone
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\shell
+esc.sty"
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.
+sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.s
+ty"
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval
+.tex"
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutil
+s.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.
+tex"))
+\XKV@depth=\count177
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count178
+\c@sapage=\count179
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/standalone\standa
+lone.cfg"
+File: standalone.cfg 2018/03/26 v1.3a Default configuration file for 'standalon
+e' class
+) ("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cl
+s"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/preview\preview.s
+ty"
+Package: preview 2017/04/24 12.3 (AUCTeX/preview-latex)
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/generic/luatex85\luatex
+85.sty"
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/preview\prtightpa
+ge.def"
+\PreviewBorder=\dimen139
+)
+\pr@snippet=\count188
+\pr@box=\box47
+\pr@output=\toks17
+)) ("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.
+sty"
+Package: babel 2020/10/27 3.51 The Babel package
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+"
+File: babel.def 2020/10/27 3.51 Babel common definitions
+\babel@savecnt=\count189
+\U@D=\dimen140
+\l@babelnohyphens=\language84
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.
+def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count190
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\eng
+lish.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language78) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language78) on input line 108.
+)) ("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.
+sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+) ("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.st
+y"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.s
+ty"
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.st
+y"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen141
+))
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count191
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count192
+\leftroot@=\count193
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count194
+\DOTSCASE@=\count195
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count196
+\c@MaxMatrixCols=\count197
+\dotsspace@=\muskip16
+\c@parentequation=\count198
+\dspbrk@lvl=\count199
+\tag@help=\toks21
+\row@=\count266
+\column@=\count267
+\maxfields@=\count268
+\andhelp@=\toks22
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks23
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.
+sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts
+.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/doublestroke\dsfo
+nt.sty"
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace
+.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+) ("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/tipa\tipa.sty"
+Package: tipa 2002/08/08 TIPA version 1.1
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3enc.def"
+File: t3enc.def 2001/12/31 T3 encoding
+Now handling font encoding T3 ...
+... no UTF-8 mapping file for font encoding T3
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 3
+57.
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd"
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))))
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.s
+ty"
+Package: relsize 2013/03/29 ver 4.1
+) ("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.s
+ty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs
+.sty"
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/fundus-calligra\c
+alligra.sty"
+Package: calligra 2012/04/10 v1.9 LaTeX package calligra
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.s
+ty"
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e
+.sty"
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/ms\everysel.sty"
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip52
+\RaggedLeftLeftskip=\skip53
+\RaggedRightLeftskip=\skip54
+\CenteringRightskip=\skip55
+\RaggedLeftRightskip=\skip56
+\RaggedRightRightskip=\skip57
+\CenteringParfillskip=\skip58
+\RaggedLeftParfillskip=\skip59
+\RaggedRightParfillskip=\skip60
+\JustifyingParfillskip=\skip61
+\CenteringParindent=\skip62
+\RaggedLeftParindent=\skip63
+\RaggedRightParindent=\skip64
+\JustifyingParindent=\skip65
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.s
+ty"
+Package: physics 
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse
+\xparse.sty"
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.st
+y"
+Package: expl3 2020-12-07 L3 programming layer (loader) 
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
+nd-dvips.def"
+File: l3backend-dvips.def 2020-09-24 L3 backend support: dvips
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count269
+\l__pdf_backend_content_box=\box51
+\l__pdf_backend_model_box=\box52
+\g__pdf_backend_annotation_int=\count270
+\g__pdf_backend_link_int=\count271
+\g__pdf_backend_link_sf_int=\count272
+))
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse
+\xparse-generic.tex"))) ("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex
+/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\dvip
+s.def"
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microty
+pe.sty"
+Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
+\MT@toks=\toks25
+\MT@count=\count273
+LaTeX Info: Redefining \textls on input line 788.
+\MT@outer@kern=\dimen150
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count274
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microty
+pe-pdftex.def"
+File: microtype-pdftex.def 2020/12/07 v2.8 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip66
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microty
+pe.cfg"
+File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
+))
+No file 80ed8d4981768252.aux.
+\openout1 = `80ed8d4981768252.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 24.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 24
+.
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd"
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 24.
+Preview: Fontsize 10pt
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 24.
+LaTeX Info: Redefining \microtypecontext on input line 24.
+Package microtype Info: Generating DVI output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No font expansion.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.
+cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.
+cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.
+cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 26
+.
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+"
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 26
+.
+("C:\Users\Juan Perez\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd"
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+Preview: Tightpage 0 0 0 0
+[1]
+("C:/Users\Juan Perez\Documents\GitHub\circuitanim\media\Tex\80ed8d4981768252.a
+ux") ) 
+Here is how much of TeX's memory you used:
+ 7215 strings out of 479660
+ 107403 string characters out of 2862960
+ 427320 words of memory out of 3000000
+ 24195 multiletter control sequences out of 15000+200000
+ 410855 words of font info for 47 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 78i,5n,86p,403b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on "C:/Users\Juan Perez\Documents\GitHub\circuitanim\media\Tex\8
+0ed8d4981768252.dvi" (1 page, 1744 bytes).
