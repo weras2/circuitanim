@@ -531,7 +531,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/power_sources/battery.jpg" alt="Battery Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/power_sources/battery.jpg"><source src="graphics/videos/battery.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -671,7 +671,7 @@ By default, the bjt is rendered as npn. If you would like to render a pnp bjt, t
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/transistors/bjt_npn.jpg" alt="bjt pnp image">
+        <video controls="true" allowfullscreen="true" poster="graphics/transistors/bjt_npn.jpg"><source src="graphics/videos/bjt_npn.mp4" type="video/mp4"></video>
     </div>
     <div class="card-content">
         <div class="content">   
@@ -692,7 +692,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/transistors/bjt_pnp.jpg" alt="bjt npn image">
+        <video controls="true" allowfullscreen="true" poster="graphics/transistors/bjt_pnp.jpg"><source src="graphics/videos/bjt_pnp.mp4" type="video/mp4"></video>
     </div>
     <div class="card-content">
         <div class="content">   
@@ -732,7 +732,7 @@ By default, the mosfet is rendered as nmos. If you would like to render it as pm
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/transistors/mosfet_nmos.jpg" alt="nmos image">
+        <video controls="true" allowfullscreen="true" poster="graphics/transistors/mosfet_nmos.jpg"><source src="graphics/videos/mosfet_nmos.mp4" type="video/mp4"></video>
     </div>
     <div class="card-content">
         <div class="content">   
@@ -753,7 +753,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/transistors/mosfet_pmos.jpg" alt="pmos image">
+        <video controls="true" allowfullscreen="true" poster="graphics/transistors/mosfet_pmos.jpg"><source src="graphics/videos/mosfet_pmos.mp4" type="video/mp4"></video>
     </div>
     <div class="card-content">
         <div class="content">   
