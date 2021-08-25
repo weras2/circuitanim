@@ -100,7 +100,7 @@ The LogicGate class is the parent class of the 8 available logic gates.
 
 
 
-By default, a non-polar capacitor is rendered. If you wish to render a polar capacitor, you can pass the optional parameter <code class = "prettyprint lang-py">is_polar</code> and set qit equal to <code class = "prettyprint lang-py">True</code>   
+By default, a non-polar capacitor is rendered. If you wish to render a polar capacitor, you can pass the optional parameter <code class = "prettyprint lang-py">is_polar</code> and set it equal to <code class = "prettyprint lang-py">True</code>   
 
 
 
@@ -109,7 +109,7 @@ By default, a non-polar capacitor is rendered. If you wish to render a polar cap
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/basic/capacitor.jpg" alt="Default Capacitor Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/basic/capacitor.jpg"><source src="graphics/videos/capacitor.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -130,7 +130,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/basic/capacitor_polar.jpg" alt="Polar Capacitor Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/basic/capacitor_polar.jpg"><source src="graphics/videos/capacitor_polar.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -241,7 +241,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/basic/inductor.jpg" alt="Inductor Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/basic/inductor.jpg"><source src="graphics/videos/inductor.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -269,7 +269,7 @@ class Sample(Scene):
 <div class="column is-6">
         <div class="card">
     <div class="card-image">
-        <img src="graphics/basic/resistor.jpg" alt="Resistor Image">
+        <video controls="true" allowfullscreen="true" poster="graphics/basic/resistor.jpg"><source src="graphics/videos/resistor.mp4" type="video/mp4"></video> 
     </div>
     <div class="card-content">
         <div class="content">   
@@ -553,6 +553,7 @@ class Sample(Scene):
 
 ### Current Source
 
+By default, the current source is rendered as an independent current source. If you would like to render it as a dependent current source,  then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_dependent</code> and set it to <code class = "prettyprint lang-py">True</code>.
 
 <div class="columns">
 
@@ -605,6 +606,7 @@ class Sample(Scene):
 
 ### Voltage Source
 
+By default, the voltage source is rendered as an independent voltage source. If you would like to render it as a dependent voltage source,  then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_dependent</code> and set it to <code class = "prettyprint lang-py">True</code>.
 
 <div class="columns">
 
@@ -663,7 +665,7 @@ message=" Note: Transistors have more than two terminals so avoid the use of get
 ### BJTs 
 
 
-By default, the bjt is rendered as npn. If you would like to render a pnp bjt, then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_pnp</code> and set it to <code class = "prettyprint lang-py">False</code> like so <code class = "prettyprint lang-py">Bjt(is_pnp=False)</code>. 
+By default, the bjt is rendered as npn. If you would like to render a pnp bjt, then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_pnp</code> and set it to <code class = "prettyprint lang-py">False</code>. 
 
 
 <div class="columns">
@@ -725,7 +727,7 @@ class Sample(Scene):
 
 ### Mosfets
 
-By default, the mosfet is rendered as nmos. If you would like to render it as pmos,  then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_nmos</code> and set it to <code class = "prettyprint lang-py">False</code> like so <code class = "prettyprint lang-py">Mosfet(is_nmos=False)</code>.
+By default, the mosfet is rendered as nmos. If you would like to render it as pmos,  then in the constructor just pass in the optional parameter <code class = "prettyprint lang-py">is_nmos</code> and set it to <code class = "prettyprint lang-py">False</code>.
 
 <div class="columns">
 
