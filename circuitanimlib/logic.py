@@ -132,6 +132,11 @@ class OR(LogicGate):
 
 	def generate_points(self):
 
+		#QP0 = -0.125,0.5
+		#QP1 = 0.125,0
+		#QP2 = -0.125,-0.5
+
+
 		# QP0 = (-0.25,0.5,0)
 		# QP1 = (0.25,0,0)
 		# QP2 = (-0.25,-0.5,0)
