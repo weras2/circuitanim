@@ -2,9 +2,11 @@
 
 from manimlib.imports import *
 
-from manimlib.mobject.geometry import TipableVMobject;
+#from manimlib.mobject.geometry import *;
 
 from circuitanimlib.circuit import *
+
+from circuitanimlib.logic import *
 
 # To watch one of these scenes, run the following:
 # python -m manim example.py DrawCircuit -pl
@@ -19,13 +21,18 @@ from circuitanimlib.circuit import *
 # for a 1920x1080 video)
 
 
-
-#Resistor
 #Capacitor
-#Battery
 #Diode
+#Inductor
+#Resistor
+
+#Battery
+#VoltageSource
+#CurrentSource
+
 #Bjt
-#Mosfet (WIP)
+#Mosfet
+
 
 
 
@@ -51,3 +58,91 @@ class DrawCircuit(Scene):
         
         self.play(ShowCreation(batt),ShowCreation(res),ShowCreation(cap),ShowCreation(circ),run_time=3)
 
+
+
+
+class Transistors(Scene):
+    def construct(self):
+        tran1 = Mosfet()
+        tran2 = Mosfet(is_nmos=False)
+
+        tran1.shift(LEFT*2)
+        tran2.shift(RIGHT*2)
+
+        self.play(ShowCreation(tran1),ShowCreation(tran2))
+
+
+class Create(Scene):
+    def construct(self):
+
+        obj = CurrentSource(is_dependent=True)
+
+        self.play(ShowCreation(obj))
+
+class Logic(Scene):
+
+    def construct(self):
+
+        pad = 0.5;
+        obj = AND()
+        obj1 = NAND()
+        obj2 = OR()
+        obj3 = NOR()
+        obj4 = XOR()
+        obj5 = XNOR()
+        obj6 = Buffer()
+        obj7 = NOT()
+
+        obj.shift(2*(pad+LOGIC_WIDTH)*LEFT + 2*(pad+LOGIC_HEIGHT)*UP)
+        obj1.shift(2*(pad+LOGIC_WIDTH)*LEFT + (pad+LOGIC_HEIGHT)*UP)
+
+        obj2.shift((LOGIC_WIDTH)*LEFT + 2*(pad+LOGIC_HEIGHT)*UP)
+        obj3.shift((LOGIC_WIDTH)*LEFT + (pad+LOGIC_HEIGHT)*UP)
+
+        obj4.shift((LOGIC_WIDTH)*RIGHT + 2*(pad+LOGIC_HEIGHT)*UP)
+        obj5.shift((LOGIC_WIDTH)*RIGHT + (pad+LOGIC_HEIGHT)*UP)
+
+        obj6.shift(2*(pad+LOGIC_WIDTH)*RIGHT + 2*(pad+LOGIC_HEIGHT)*UP)
+        obj7.shift(2*(pad+LOGIC_WIDTH)*RIGHT + (pad+LOGIC_HEIGHT)*UP)     
+
+
+
+
+        self.play(ShowCreation(obj),
+            ShowCreation(obj1),
+            ShowCreation(obj2),
+            ShowCreation(obj3),
+            ShowCreation(obj4),
+            ShowCreation(obj5),
+            ShowCreation(obj6),
+            ShowCreation(obj7))
+
+
+
+class Testing(Scene):
+
+    def construct(self):
+
+        obj = Inductor()
+        obj.scale(4)
+        self.play(ShowCreation(obj))
+
+
+class LCircuit(Scene):
+
+    def construct(self):
+
+        obj1 = NOT()
+
+        
+        obj2 = Buffer()
+
+        obj2.shift(1.5*LOGIC_WIDTH*RIGHT + LOGIC_HEIGHT*DOWN)
+
+        circ = Circuit()
+
+        circ.connect(obj1.get_output(),obj2.get_inputA())
+
+        circ.render()
+
+        self.play(ShowCreation(obj1),ShowCreation(circ),ShowCreation(obj2))
