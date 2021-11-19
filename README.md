@@ -1,4 +1,4 @@
- ![alt text](Logo.jpg)
+ ![circuitanim logo](Logo.jpg)
 
 ## Documentation/Official Website
 
