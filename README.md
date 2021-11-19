@@ -1,3 +1,9 @@
+ ![alt text](Logo.jpg)
+
+## Documentation/Official Website
+
+See [this](https://weras2.github.io/circuitanim/) website for up-to-date documentation of this extension!
+
 
 ## Installation 
 
@@ -20,10 +26,6 @@ Using circuitanim is exactly like using manim. For example, if you cloned this r
 python -m manim example.py DrawCircuit -p  
 ```
 
-
-### Documentation 
-
-See [this](https://weras2.github.io/circuitanim/) website for up-to-date documentation of this extension.
 
 
 ## Bugs & Feature Requests
