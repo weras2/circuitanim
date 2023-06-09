@@ -7,7 +7,7 @@ See [this](https://weras2.github.io/circuitanim/) website for up-to-date documen
 
 ## Installation 
 
-In order to use circuitanim, you must have manim installed. For detailed instructions on how to install manim, see [here](). 
+In order to use circuitanim, you must have manim installed. For detailed instructions on how to install manim, see [here]((https://github.com/3b1b/manim)). 
 
 If you already have manim, installing circuitanim is straightforward. 
 
